@@ -273,7 +273,7 @@ type DbProviderConfig struct {
 	// +optional
 	Influx *DbProviderInflux `json:"influx,omitempty"`
 	Redis  *DbProviderRedis  `json:"redis,omitempty"`
-	Tdengine **DbProviderTdengine `json:"tdengine,omitempty"`
+	Tdengine *DbProviderTdengine `json:"tdengine,omitempty"`
 }
 
 type DbProviderTdengine struct {
